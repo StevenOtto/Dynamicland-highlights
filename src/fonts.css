@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl/SuisseIntl-Regular-WebS.woff2") format("woff2"),
+    url("/fonts/SuisseIntl/SuisseIntl-Regular-WebS.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl/SuisseIntl-Book-WebS.woff2") format("woff2"),
+    url("/fonts/SuisseIntl/SuisseIntl-Book-WebS.woff") format("woff");
+  font-weight: 450;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Suisse Int'l";
+  src: url("/fonts/SuisseIntl/SuisseIntl-Medium-WebS.woff2") format("woff2"),
+    url("/fonts/SuisseIntl/SuisseIntl-Medium-WebS.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ApercuCondensed";
+  src: url("/fonts/ApercuCondensed/ApercuCondensed-Bold-Pro.woff2")
+      format("woff2"),
+    url("/fonts/ApercuCondensed/ApercuCondensed-Bold-Pro.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "ApercuCondensed", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #333;
+}
+
+.topic-button {
+  font-family: "Suisse Int'l", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #333;
+}
+
+.subtopic-button {
+  font-family: "Suisse Int'l", sans-serif;
+  display: block;
+  &:focus {
+    outline: none;
+  }
+}
+
+.sidebar {
+  background-color: #3d1028;
+}
+
+.bg-purple {
+  background-color: #d5b3ff;
+}
+
+.text-purple-norday {
+  color: #d5b3ff;
+}
